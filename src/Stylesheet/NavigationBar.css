@@ -1,0 +1,31 @@
+.nav{
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+}
+
+.nav-link{
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-top: 4rem;
+  cursor: pointer;
+  padding: .8rem;
+  border-radius: 8px
+}
+
+.nav-link-home:hover{
+  background: green
+}
+
+.nav-link-ads:hover{
+  background: blue
+}
+
+.nav-link-about:hover{
+  background: green
+}
